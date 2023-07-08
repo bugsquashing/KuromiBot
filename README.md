@@ -200,7 +200,7 @@ Project Link: [https://github.com/opened-src/KuromiBot](https://github.com/opene
 [issues-shield]: https://img.shields.io/github/issues/opened-src/KuromiBot.svg?style=for-the-badge
 [issues-url]: https://github.com/opened-src/KuromiBot/issues
 [license-shield]: https://img.shields.io/github/license/opened-src/KuromiBot.svg?style=for-the-badge
-[license-url]: https://github.com/opened-src/KuromiBot/blob/master/LICENSE.md
+[license-url]: https://github.com/opened-src/KuromiBot/blob/master/LICENSE
 [product-screenshot]: images/screenshot.png
 [DPY]: https://img.shields.io/badge/discord.py-000000?style=for-the-badge&logo=python&logoColor=white
 [DPY-url]: https://github.com/Rapptz/discord.py
