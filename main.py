@@ -14,6 +14,7 @@
 # because I was bored and had nothing to do :p                                  #
 #################################################################################
 
+import os
 import discord
 import random
 from discord import app_commands
@@ -22,7 +23,7 @@ from asyncio import sleep
 # Setup ----------------------------------------------------------------------------------------------------------------------------
 
 
-token = 'MTA5MTgzNTExMzUzMDIwNDI0MA.GigVlV.s7Ubp6kfwgqwJSVkU1NKRaw2WHvSQmyKxwcH78'
+token = os.environ['TOKEN']
 intents = discord.Intents.default()
 client = discord.Client(intents=intents)
 tree = app_commands.CommandTree(client)
@@ -142,6 +143,7 @@ async def status():
         await sleep(120)
 
 
+@client.event
 async def on_ready():
     print("Ready!")
     await tree.sync()
