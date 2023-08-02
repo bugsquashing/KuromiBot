@@ -123,6 +123,11 @@ async def funfacts(interaction):
 async def warning(interaction: discord.Interaction, member: discord.Member, reason: str):
     await interaction.response.send_message(f" <a:warning:1126947077960765631> | Warned {member.mention} for {reason}, you {random.choice(insults)}")
 
+@tree.command(name="kick", description="Kick your friends and see if they rejoin!")
+async def warning(interaction: discord.Interaction, member: discord.Member, reason: str):
+    del /guilds/{guild.id}/members/{user.id}
+    await interaction.response.send_message(f" Kicked {member.mention} for {reason}, you {random.choice(insults)}")
+
 
 @tree.command(name="talking-kuromi", description="Talking ben but objectively better.")
 async def kuromi(interaction: discord.Interaction, question: str):
