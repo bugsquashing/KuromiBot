@@ -124,8 +124,8 @@ async def warning(interaction: discord.Interaction, member: discord.Member, reas
     await interaction.response.send_message(f" <a:warning:1126947077960765631> | Warned {member.mention} for {reason}, you {random.choice(insults)}")
 
 @tree.command(name="kick", description="Kick your friends and see if they rejoin!")
-async def warning(interaction: discord.Interaction, member: discord.Member, reason: str):
-    del /guilds/{guild.id}/members/{user.id}
+async def kick(interaction: discord.Interaction, member: discord.Member, reason: str):
+    await member.kick(member=member)
     await interaction.response.send_message(f" Kicked {member.mention} for {reason}, you {random.choice(insults)}")
 
 
