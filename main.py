@@ -56,7 +56,8 @@ talking_kuromi = ['Yes!',
                   'Hell no',
                   'Ugh',
                   '*Hangs up*',
-                  'Hohoho']
+                  'Hohoho'
+                  'Hallo, Ich hieße Kuromi and german stuff.']
 
 fun_facts = ['There is Hitler Rule34...',
              'Only one in every 1,000 sea turtles born make it to adulthood.',
@@ -82,7 +83,8 @@ insults = ['stupid idiot',
            'small dicked erectile dysfunction having dumbass',
            'gray sprinkle on a rainbow cupcake',
            'moronic fool',
-           'are called a mistake, but God is perfect, so he made you to balance out the good looking people and the absolutely terrible looking people.']
+           'are called a mistake, but God is perfect, so he made you to balance out the good looking people and the absolutely terrible looking people.',
+           'your mom']
 
 # Commands --------------------------------------------------------------------------------------------------------------------------
 
