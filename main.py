@@ -90,24 +90,24 @@ insults = ['stupid idiot',
 # Commands --------------------------------------------------------------------------------------------------------------------------
 
 
-@tree.command(name="yes", description="no")
+@tree.command(name="yes", description="No (uno reverse)")
 async def ping(interaction):
     await interaction.response.send_message('no! {0}'.format(round(client.latency, 1)))
 
 
-@tree.command(name="invite", description="Invite the bot")
+@tree.command(name="invite", description="Invite KuromiBot to your server.")
 async def first_command(interaction):
     print(f"f[Command] Invite was ran!")
     await interaction.response.send_message("__**Add the bot!**__ <:Nice:1121512276680249425>\n__**https://discord.com/api/oauth2/authorize?client_id=1091835113530204240&permissions=105428298816&scope=bot**__\n\n*Maintained and developed by <@567854912004685844>*", ephemeral=True)
 
 
-@tree.command(name="ask-me", description="answers for all your questions!")
+@tree.command(name="ask-me", description="Answers for all your questions! Like ChatGPT but better.")
 async def question(interaction: discord.Interaction, anything: str):
     print(f"f[Command] ask-me was ran! Question: {question}")
     await interaction.response.send_message(f'{interaction.user.name} asked me {anything}? I say, {random.choice(eight_balls)}')
 
 
-@tree.command(name="inspirational-quotes", description="Inspirational quotes from people")
+@tree.command(name="inspirational-quotes", description="Get a random inpirational quote.")
 async def inspirationalquotes(interaction):
     print(f"[Command] inspirational-quotes was ran!")
     await interaction.response.send_message(random.choice(quotes_that_are_inspirational))
@@ -119,12 +119,12 @@ async def funfacts(interaction):
     await interaction.response.send_message(random.choice(fun_facts))
 
 
-@tree.command(name="warn", description="WARNING SOMEONE!")
+@tree.command(name="warn", description="Warn your friends and see if they unfriend you!")
 async def warning(interaction: discord.Interaction, member: discord.Member, reason: str):
     await interaction.response.send_message(f" <a:warning:1126947077960765631> | Warned {member.mention} for {reason}, you {random.choice(insults)}")
 
 
-@tree.command(name="talking-kuromi", description="talking ben but objectively better")
+@tree.command(name="talking-kuromi", description="Talking ben but objectively better.")
 async def kuromi(interaction: discord.Interaction, question: str):
     await interaction.response.send_message(f'{question}\n {random.choice(talking_kuromi)}')
 
