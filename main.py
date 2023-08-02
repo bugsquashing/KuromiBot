@@ -80,6 +80,7 @@ fun_facts = ['There is Hitler Rule34...',
 
 insults = ['stupid idiot',
            'loser',
+           'you are a failure',
            'small dicked erectile dysfunction having dumbass',
            'gray sprinkle on a rainbow cupcake',
            'moronic fool',
